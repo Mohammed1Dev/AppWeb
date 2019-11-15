@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   
+}
+
+.head-nav{
+    width: 100%;
+    top: 0;
+    z-index: 1;
+    position: fixed;
+    border-bottom: 3px solid white;
+    background-image: repeating-linear-gradient(45deg,#00bfff 0%,#8000ff 30%,#ff00bf 60%,#bfff00 100%);
+    
+}
+.head-nav li{ 
+    display: inline-block;
+}
+.head-nav li a{
+    display: inline-block;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+.head-nav li a:hover{
+    color: orange;
+}
+.main-header{
+    background-image: url(left.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 300px;
+}
+.main-header h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    color: orange;
+    font-size: 20px;
+    background-color: black;
+    opacity: 80%;
+    padding: 15px;
+    border-radius: 30px;
+}
+
+#boss
+{
+    position: relative;
+     width: 600px;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+    color: blanchedalmond;
+}
+#boss2
+{
+     position: static;
+    float: right;
+     width: 660px;
+    margin: 0;
+    padding: 0;
+    background-color: dimgray;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+    color: blanchedalmond;
+    margin-top: -2845px;
+}
+.slide
+{
+    position: relative;
+    width: 600px;
+    height: 300px;
+    background-image: url(bnn.jpg);
+    margin: 0px auto;
+    animation: slid 20s infinite;
+    background-size: cover;
+    
+}
+@keyframes slid
+{
+    20%{background-image: url(br.jpg);}
+    30%{background-image: url(BBh.jpg);}
+    40%{background-image: url( brain1.jpg);}
+    50%{background-image: url( UnlokBrain.jpg);}
+    60%{background-image: url( BrainBook.jpg);}
+    70%{background-image: url(BrainHd.jpg);}
+    80%{background-image: url(BrPower.jpg);}
+    90%{background-image: url(sciencesTH.jpg);}
+    100%{background-image: url(AdolesBrain.jpg);}
+    
+}
+
+.firstBox p
+{
+    background-image: repeating-linear-gradient(45deg,#f29b53 0%,#d13164 50%,#ab3eb2 100%);
+    width: 400px;
+    height: 200px;
+    margin:40px;
+    padding: 40px;
+    border: 1px solid blue;
+    border-radius: 10%;
+    font-size: 14px;
+    font-family: Nunito, sans-serif;
+    line-height: 2em;
+    margin-bottom: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+.title
+{
+    font-display: swap;
+    font-family: fantasy;
+    font-size: 20px;
+    text-align: left;
+}
+
+table tr td a img
+{
+    position: static;
+    float: right;
+    width: 300px;
+    height: 150px;
+    margin-top: 50px;
+}
+
+
+

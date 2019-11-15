@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
+    <title>JavaScript Subject</title>
+</head>
+<body>
+    <ul class="head-nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Our Repository</a></li>
+    </ul>
+    <div class="main-header">
+        <h1>JavaScript</h1>
+    </div>
+    <ul class="main-nav">
+        <li><a href="#intro">Intro & History</a></li>
+        <li><a href="#ability">What JavaScript can do</a></li>
+        <li><a href="#syntax">JavaScript Syntax & up and running</a></li>
+        <li><a href="#extend">Languages based on JavaScript</a></li>
+        <li><a href="#resourse">Resources Where you can learn</a></li>
+    </ul>
+    <div class="main-containt" id="intro">
+        <h1>Introduction  au Javascript</h1>
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg?uselang=fr"  width="404" height="242">
+
+<p>C'est un langage de programmation de scripts principalement employé dans les pages web
+interactives mais aussi pour les serveurs avec l'utilisation (par exemple) de Node.js. 
+C'est un langage orienté objet à prototype, c'est-à-dire que les bases du langage et ses principales 
+interfaces sont fournies par des objets qui ne sont pas des instances de classes, mais qui sont chacun
+équipés de constructeurs permettant de créer leurs propriétés, et notamment une propriété 
+de prototypage qui permet d'en créer des objets héritiers personnalisés. En outre, les fonctions
+sont des objets de première classe.<p/>
+<h2>plan</h2>
+<ul>
+    <li>Histoire de JavaScript</li>
+    <li>Utilité de JavaScript</li>
+    <li>Javascript et le web develop</li>
+    <li>Syntaxe</li>
+    <li>Installation et premier programme</li>
+    <li>Langages basés sur JavaScript</li>
+    <li>Ressources JavaScript</li>
+  </ul>
+  <h3>Histoire de Javascript</h3>
+  <p>JavaScript a été créé en 1995 par Brendan Eich. 
+      Il a été standarisé sous le nom d'ECMAScript en juin 1997 par Ecma International 
+      dans le standard ECMA-262. Le standard ECMA-262 en est actuellement à sa 8e édition.<p/>
+       
+
+</p>
+    </div>
+    <div class="main-containt" id="ability" style="font-family: fantasy;font-size: 20px;">
+        <h1>The Purpse of JavaScrit</h1>
+        <p>
+        <strong style="text-align: center;color: bisque;">Let’s take a step back and count the merits of JavaScript:</strong>
+            <ul>
+                <li>
+                    JavaScript is very easy to implement. All you need to do is put your code in the HTML document and tell the browser that it is JavaScript.
+                </li>
+                <li>
+                    JavaScript works on web users’ computers — even when they are offline!
+                </li>
+                <li>
+                    JavaScript allows you to create highly responsive interfaces that improve the user experience and provide dynamic functionality, without having to wait for the server to react and show another page.
+                </li>
+                <li>
+                    JavaScript can load content into the document if and when the user needs it, without reloading the entire page — this is commonly referred to as Ajax.
+                </li>
+                <li>
+                    JavaScript can test for what is possible in your browser and react accordingly — this is called Principles of unobtrusive JavaScript or sometimes defensive scripting.
+                </li>
+                <li>
+                     JavaScript can help fix browser problems or patch holes in browser support — for example fixing CSS layout issues in certain browsers.
+                </li>
+            </ul>
+        That is a lot for a language that until recently was laughed at by programmers favouring “higher programming languages”. One part of the renaissance of JavaScript is that we are building more and more complex web applications these days, and high interactivity either requires Flash (or other plugins) or scripting. JavaScript is arguably the best way to go, as it is a web standard, it is supported natively across browsers (more or less — some things differ across browsers, and these differences are discussed in appropriate places in the articles that follow this one), and it is compatible with other open web standards
+        </p>
+    <table >
+        <tr>
+                    <th align="center">
+            <b>Everything you can do with Javascript</b>
+            
+        </th>
+        </tr>
+
+        <tr>
+            <td>Web Site</td>
+            <td><img src="imgweb.jpeg" width="100%"/></td>
+        </tr>
+        <tr>
+            <td>Chatbots</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>System scripts</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Video games</td>
+            <td><img src="imggame.png" width="100%"/></td>
+        </tr>
+        <tr>
+            <td>Machine Learning</td>
+            <td><img src="imgintellig.jpeg" width="100%"/></td>
+        </tr>
+        <tr>
+            <td>Robots and IoT</td>
+            <td><img src="imgrobot.jpeg" width="100%"/></td>
+        </tr>
+    </table>
+    </div>
+    <div class="main-containt" id="syntax">
+        <!--mahdi-->
+    </div>
+    <div class="main-containt" id="extend">
+        <!--youssef-->
+    </div>
+    <div class="main-containt" id="resourse">
+        <!--youssef-->
+    </div>
+    <script src="main.js"></script>
+    
+</body>
+</html>
